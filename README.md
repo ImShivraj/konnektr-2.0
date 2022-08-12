@@ -1,4 +1,4 @@
-# Welcome to Konnektr!
+# Welcome to Konnektr 2.0!
 
 ## Network And Find Valuable Connections With Ease
 
