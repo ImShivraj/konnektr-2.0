@@ -477,6 +477,7 @@ h6 {
     width: 600px;
   }
 }
+
 /* ENTIRE-SEC */
 
 .main-sec{
@@ -495,19 +496,23 @@ h6 {
 
 .about{
   padding-top: 100px;
-  /* background-color:hsla(266,78%,61%,1);
-  background-image:
-  radial-gradient(at 40% 20%, hsla(266,78%,61%,1) 0px, transparent 50%),
-  radial-gradient(at 78% 40%, hsla(266,78%,61%,1) 0px, transparent 50%),
-  radial-gradient(at 12% 62%, hsla(266,78%,61%,1) 0px, transparent 50%),
-  radial-gradient(at 25% 58%, hsla(340,100%,76%,1) 0px, transparent 50%),
-  radial-gradient(at 28% 64%, hsla(233,100%,77%,1) 0px, transparent 50%),
-  radial-gradient(at 15% 80%, hsla(242,100%,70%,1) 0px, transparent 50%),
-  radial-gradient(at 76% 31%, hsla(343,100%,76%,1) 0px, transparent 50%); */
 }
 .section-header {
   text-align: center;
   margin-bottom: 60px;
+  text-shadow:
+  /* 0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px rgb(98, 37, 240),
+  0 0 82px rgb(98, 37, 240),
+  0 0 92px rgb(98, 37, 240),
+  0 0 102px rgb(98, 37, 240),
+  0 0 151px rgb(98, 37, 240); */
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff;
+
 }
 
 .section-header h2 {
@@ -515,7 +520,7 @@ h6 {
   text-align: center;
   letter-spacing: 1px;
   font-weight: 700;
-  color: #5041f1;
+  color: #4030f3;
   /* color: #7942f0; */
   text-transform: uppercase;
 }
@@ -527,8 +532,10 @@ h6 {
   line-height: 42px;
   font-weight: 650;
   /* color: #4154f1; */
-  color: rgba(99, 59, 201, 0.9) ;
+  /* color: rgba(99, 59, 201, 0.9) ; */
+  color: rgba(75, 16, 224, 0.9) ;
 }
+
 
 .sub-title{
   justify-content: left;
@@ -543,7 +550,8 @@ h6 {
 
 .paras{
   font-size: 18px;
-
+  color: rgba(223, 222, 222, 0.8);
+  
 }
 
 .content-wrap{
@@ -555,22 +563,20 @@ h6 {
   flex-direction: row-reverse;
 }
 
+.text{
+  margin-top: 50px;
+  width: 720px;
+}
+
+#how{
+  width: 1300px;
+}
+
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
 .team {
-  /* background: #fff; */
   padding: 60px 0;
-  /* background-color:hsla(266,78%,61%,1);
-  background-image:
-  radial-gradient(at 40% 20%, hsla(266,78%,61%,1) 0px, transparent 50%),
-  radial-gradient(at 78% 40%, hsla(266,78%,61%,1) 0px, transparent 50%),
-  radial-gradient(at 12% 62%, hsla(266,78%,61%,1) 0px, transparent 50%),
-  radial-gradient(at 25% 58%, hsla(340,100%,76%,1) 0px, transparent 50%),
-  radial-gradient(at 28% 64%, hsla(233,100%,77%,1) 0px, transparent 50%),
-  radial-gradient(at 15% 80%, hsla(242,100%,70%,1) 0px, transparent 50%),
-  radial-gradient(at 76% 31%, hsla(343,100%,76%,1) 0px, transparent 50%); */
-
 }
 
 .team .member {
@@ -648,4 +654,8 @@ h6 {
 .team .member:hover .social {
   right: 8px;
   opacity: 1;
+}
+
+.end{
+  height: 300px;
 }
