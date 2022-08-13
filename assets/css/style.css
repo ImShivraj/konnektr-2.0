@@ -529,7 +529,7 @@ h6 {
   display: flex;
 }
 
-#probs{
+#reverse{
   flex-direction: row-reverse;
 }
 
