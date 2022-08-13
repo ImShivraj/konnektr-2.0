@@ -477,11 +477,33 @@ h6 {
     width: 600px;
   }
 }
+/* ENTIRE-SEC */
+
+.main-sec{
+  background-color:hsla(266,78%,61%,1);
+  background-image:
+  radial-gradient(at 40% 20%, hsla(266,78%,61%,1) 0px, transparent 50%),
+  radial-gradient(at 78% 40%, hsla(266,78%,61%,1) 0px, transparent 50%),
+  radial-gradient(at 12% 62%, hsla(266,78%,61%,1) 0px, transparent 50%),
+  radial-gradient(at 25% 58%, hsla(340,100%,76%,1) 0px, transparent 50%),
+  radial-gradient(at 28% 64%, hsla(233,100%,77%,1) 0px, transparent 50%),
+  radial-gradient(at 15% 80%, hsla(242,100%,70%,1) 0px, transparent 50%),
+  radial-gradient(at 76% 31%, hsla(343,100%,76%,1) 0px, transparent 50%);
+}
 
 /* about us */
 
 .about{
-  margin-top: 100px;
+  padding-top: 100px;
+  /* background-color:hsla(266,78%,61%,1);
+  background-image:
+  radial-gradient(at 40% 20%, hsla(266,78%,61%,1) 0px, transparent 50%),
+  radial-gradient(at 78% 40%, hsla(266,78%,61%,1) 0px, transparent 50%),
+  radial-gradient(at 12% 62%, hsla(266,78%,61%,1) 0px, transparent 50%),
+  radial-gradient(at 25% 58%, hsla(340,100%,76%,1) 0px, transparent 50%),
+  radial-gradient(at 28% 64%, hsla(233,100%,77%,1) 0px, transparent 50%),
+  radial-gradient(at 15% 80%, hsla(242,100%,70%,1) 0px, transparent 50%),
+  radial-gradient(at 76% 31%, hsla(343,100%,76%,1) 0px, transparent 50%); */
 }
 .section-header {
   text-align: center;
@@ -537,15 +559,25 @@ h6 {
 # Team
 --------------------------------------------------------------*/
 .team {
-  background: #fff;
+  /* background: #fff; */
   padding: 60px 0;
+  /* background-color:hsla(266,78%,61%,1);
+  background-image:
+  radial-gradient(at 40% 20%, hsla(266,78%,61%,1) 0px, transparent 50%),
+  radial-gradient(at 78% 40%, hsla(266,78%,61%,1) 0px, transparent 50%),
+  radial-gradient(at 12% 62%, hsla(266,78%,61%,1) 0px, transparent 50%),
+  radial-gradient(at 25% 58%, hsla(340,100%,76%,1) 0px, transparent 50%),
+  radial-gradient(at 28% 64%, hsla(233,100%,77%,1) 0px, transparent 50%),
+  radial-gradient(at 15% 80%, hsla(242,100%,70%,1) 0px, transparent 50%),
+  radial-gradient(at 76% 31%, hsla(343,100%,76%,1) 0px, transparent 50%); */
+
 }
 
 .team .member {
   overflow: hidden;
   text-align: center;
   border-radius: 5px;
-  background: #fff;
+  background: rgb(45, 43, 43);
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
   transition: 0.3s;
 }
